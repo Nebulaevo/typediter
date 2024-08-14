@@ -182,7 +182,7 @@ Returns a function converting an iterable to an instance of the given typed iter
 from typediter import TypedList
 from typediter.utils import get_converter_func
 
-# Getting a function convtering an iterable to a TypedList[str]
+# Getting a function converting an iterable to a TypedList[str]
 to_str_list = get_converter_func( TypedList, i_type=str )
 
 # Converting an iterable to a typed list
@@ -379,7 +379,7 @@ An instance of an immutable typed iterable class:
 
 ## Running Tests
 
-- Download the repo, 
+- Download the repo
 - cd to the root package directory
 - run following command
 

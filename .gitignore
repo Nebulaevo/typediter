@@ -1,0 +1,4 @@
+/.mypy_cache/
+/env/
+/src/typediter.egg-info/
+**/__pycache__/

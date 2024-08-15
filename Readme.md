@@ -1,6 +1,7 @@
 # TypedIter
 **The Type-Safe Versions of Python Built-in Iterables** 
 
+![](https://img.shields.io/badge/Python->=_3.11-royalblue)
 ![](https://img.shields.io/badge/License-MIT-seagreen)
 
 
@@ -377,7 +378,15 @@ An instance of an immutable typed iterable class:
 - `TypedTuple_lt` / `TypedTuple`
 - `TypedFrozenset_lt` / `TypedFrozenset`
 
-## Running Tests
+
+
+## Tests
+
+This package was tested with python **3.11** and **3.12**, on Debian 12.
+
+It won't work with any version below **3.11**.
+
+### Running Tests
 
 - Download the repo
 - cd to the root package directory

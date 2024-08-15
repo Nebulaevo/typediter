@@ -95,7 +95,7 @@ class TestSamples:
     ) -> InitValues_T:
         """ Private method generating the values used to initialise an iterable instance
 
-        /!\ Warning 
+        ⚠️ Warning 
         It's important that the init values returned for 
         variant 'BASE' are UNIQUE, only one for each value of 'items_type'
         to have similar base instances when
@@ -131,7 +131,7 @@ class TestSamples:
                     iterable used as operation value in a test
                     (same as 'BASE' except for 'str' items_type)           
         """
-        # /!\ 
+        # ⚠️ 
         # result returned for 'BASE' have to be UNIQUE
         # only one for each value of 'items_type'
 

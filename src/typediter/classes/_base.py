@@ -40,7 +40,7 @@ Item_T = TypeVar( 'Item_T' )
 class _FrozenTypedIter( Generic[Item_T] ):
     """ Private parent class for all frozen typed iterables: 'tuple' or 'frozenset' based
 
-    **- /!\ It is not meant to be instanciated. -**
+    **- ⚠️ It is not meant to be instanciated. -**
 
     Just defines the common 'new' dunder method:
     - checking if the 'i_type' is valid
@@ -72,7 +72,7 @@ class _FrozenTypedIter( Generic[Item_T] ):
             The type restriction for the iterable's items 
         
         - **_skip_type_check** (PRIVATE)
-            **- /!\ SHOULD NOT BE USED, BREAKS THE TYPE SAFETY /!\ -**
+            **- ⚠️ SHOULD NOT BE USED, BREAKS THE TYPE SAFETY -**
             
             internal shortcut allowing to skip the checks for 
             instance generation from trusted items.
@@ -115,7 +115,7 @@ class _FrozenTypedIter( Generic[Item_T] ):
 class _MutableTypedIter( Generic[Item_T] ):
     """ Private parent class for all mutable typed iterables: 'list' or 'set' based
 
-    **- /!\ It is not meant to be instanciated. -**
+    **- ⚠️ It is not meant to be instanciated. -**
 
     Just defines the common 'init' dunder method:
     - checking if the 'i_type' is valid
@@ -147,7 +147,7 @@ class _MutableTypedIter( Generic[Item_T] ):
             The type restriction for the iterable's items 
         
         - **_skip_type_check** (PRIVATE)
-            **- /!\ SHOULD NOT BE USED, BREAKS THE TYPE SAFETY /!\ -**
+            **- ⚠️ SHOULD NOT BE USED, BREAKS THE TYPE SAFETY -**
 
             internal shortcut allowing to skip the checks for 
             instance generation from trusted items.

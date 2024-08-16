@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-exclude = ["test*"]
+exclude = ["tests*"]
 
 [project]
 name = "typediter"
@@ -15,26 +15,28 @@ version = "0.9.0"
 authors = [
     { name = 'Didier Martin', email = 'didier.martin.dev@gmail.com' }
 ]
-description = "Type safe versions of python builtin iterables"
+description = "Type-safe versions of Python's builtin iterables"
 readme = "README.md"
 license = { file = "LICENSE" }
 keywords = [
-    "type safe", "type-safe",
+    "type safe", "type-safe", "type-hints", "type-checking",
     "typed", "iterable", "iterables", 
     "list", "tuple", "set", "frozenset",
 ]
 requires-python = ">=3.11"
 classifiers = [
+    "Operating System :: OS Independent",
     "License :: OSI Approved :: MIT License",
     "Intended Audience :: Developers",
+    "Typing :: Typed",
+    "Programming Language :: Python",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
 ]
 
 [project.urls]
-Homepage = "https://example.com"
-Documentation = "https://readthedocs.org"
-Repository = "https://github.com/me/spam.git"
-Issues = "https://github.com/me/spam/issues"
-Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+Homepage = "https://github.com/Nebulaevo/typediter"
+Issues = "https://github.com/Nebulaevo/typediter/issues"
+Changelog = "https://github.com/Nebulaevo/typediter/blob/main/CHANGELOG.md"

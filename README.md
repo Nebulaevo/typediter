@@ -382,14 +382,14 @@ An instance of an immutable typed iterable class:
 
 ## Tests
 
-This package was tested with python **3.11** and **3.12**, on Debian 12.
+This package was tested with python **3.11.2**, **3.11.9** and **3.12.5**, on Debian 12.
 
 It won't work with any version below **3.11**.
 
 ### Running Tests
 
 - Download the repo
-- cd to the root package directory
+- `cd` to the root package directory
 - run following command
 
 ```SHELL
